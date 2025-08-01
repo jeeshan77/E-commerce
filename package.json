@@ -1,8 +1,8 @@
 {
-  "homepage": "https://jeeshan77.github.io/E-commerce",
-  "name": "hearwithjee",
+    "name": "hearwithjee",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

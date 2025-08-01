@@ -1,6 +1,6 @@
-## X-Beat | React eCommerce Web App
+## HearWithJee | React eCommerce Web App
 
-### [Demo Link](https://x-beat.netlify.app/) 🔗
+### [Demo Link](https://www.linkedin.com/in/jeeshan-gosain/) 🔗
 
 Audio Store eCommerce Website, built with **React JS**. <br/>
 State management using Context API.
@@ -33,7 +33,7 @@ State management using Context API.
 
 ## Author:
 
-- **Jeeshan** - **[Portfolio Website](https://www.linkedin.com/in/jeeshan-gosain/)**, **[Linkedin](https://www.linkedin.com/in/gulshan-songara/)**
+- **Jeeshan** - **[Portfolio Website](https://www.linkedin.com/in/jeeshan-gosain/)**, **[Linkedin](https://www.linkedin.com/in/jeeshan-gosain/)**
 
 <br/>
 
@@ -49,6 +49,4 @@ State management using Context API.
 
 <br/>
 
-## License:
 
-This project is licensed under the  **GPL-3.0 License** - see the [LICENSE](LICENSE.md) file for details.
