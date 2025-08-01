@@ -22,7 +22,7 @@ const Footer = () => {
                 <div className="wrapper footer_wrapper">
                     <div className="foot_about">
                         <h2>
-                            <Link to="/">X-Beat</Link>
+                            <Link to="/">HearWithJee</Link>
                         </h2>
                         <div className="foot_subs">
                             <p>Subscribe to our Email alerts to receive early discount offers, and new products info.</p>
@@ -72,11 +72,11 @@ const Footer = () => {
                     <div className="sub_footer_wrapper">
                         <div className="foot_copyright">
                             <p>
-                                {currYear} | XBeat. All Rights Reserved.
-                                Built by | <a href="https://gulshansongara.netlify.app/">Gulshan Songara</a>
+                                {currYear} | HearWithJee. All Rights Reserved.
+                                Built by | <a href="https://github.com/jeeshan77/">Jeeshan</a>
                             </p>
                         </div>
-                        <div className="foot_social">
+                        {/* <div className="foot_social">
                             {
                                 footSocial.map((item) => {
                                     const { id, icon, path } = item;
@@ -85,7 +85,21 @@ const Footer = () => {
                                     );
                                 })
                             }
+                        </div> */}
+                        <div className="foot_social">
+                            {footSocial.map(({ id, icon, path }) => (
+                                <a
+                                    href={path}
+                                    key={id}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="social-icon"
+                                >
+                                    {icon}
+                                </a>
+                            ))}
                         </div>
+
                     </div>
                 </div>
             </div>

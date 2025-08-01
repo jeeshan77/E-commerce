@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 export const footMenu = [
     {
@@ -99,22 +99,22 @@ export const footMenu = [
 export const footSocial = [
     {
         id: 1,
-        icon: <FaFacebookF />,
-        path: "/",
+        icon: <FaGithub />,
+        path: "https://github.com/jeeshan77/",
     },
     {
         id: 2,
         icon: <FaTwitter />,
-        path: "/",
+        path: "https://x.com/jeeshan7704",
     },
     {
         id: 3,
         icon: <FaInstagram />,
-        path: "/",
+        path: "https://www.instagram.com/jaanu_._.7",
     },
     {
         id: 4,
         icon: <FaLinkedinIn />,
-        path: "/",
+        path: "https://www.linkedin.com/in/jeeshan-gosain/",
     },
 ];
